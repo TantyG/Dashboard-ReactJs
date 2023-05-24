@@ -1,0 +1,29 @@
+.App-header {
+    background-color: rgb(202, 234, 230);
+    min-height: 100vh;
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    height: auto;
+  }
+  .App-link {
+    color: #61dafb;
+  }
+  .left{
+    float: left;
+    width: 30%;
+    background: white;
+    height: auto;
+    
+  }
+  .right{
+    float: right;
+    width: 70%;
+    height: auto;
+  }
+  .Card{
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    row-gap: 50px;
+    column-gap: 60px;
+  }
