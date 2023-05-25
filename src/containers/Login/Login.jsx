@@ -10,13 +10,14 @@ const DivStyle = styled.div`
     align-items: center;
     background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #7dc0ff 100%);
-
-
+    h1{
+        text-align: center;
+    }
     .cover{
         background:  #FFFFFF;
-        width: 950px;
+        width: 500px;
         padding: 30px 30px;
-        height: 579px;
+        height: 500px;
         position: relative;
         border-radius: 1em;
         box-shadow: 0 088em 1.550em rgb(156, 156, 156);
