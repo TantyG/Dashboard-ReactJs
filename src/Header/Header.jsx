@@ -3,6 +3,7 @@ import IconSearch from "asset/search-normal.png";
 import IconAvatar from "asset/avatar.png";
 import IconBell from "asset/Bell.png"
 import IconCircleOrange from "asset/CircleOrange.png"
+import { NavLink } from "react-router-dom";
 
 const Nav = styled.div`
     background: rgb(202, 234, 230);
@@ -88,7 +89,9 @@ const Header = () => {
                         <div className="circle-Div">
                             <div className="circle"></div>
                         </div>
-                        <img className="imgAva" src={IconAvatar} alt="" />
+                        <NavLink to="/login">
+                            <img className="imgAva" src={IconAvatar} alt="" />
+                        </NavLink>
                     </div>
                 </div>
             </Nav>

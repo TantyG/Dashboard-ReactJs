@@ -6,19 +6,16 @@
     color: white;
     height: auto;
   }
-  .App-link {
-    color: #61dafb;
-  }
   .left{
     float: left;
-    width: 25%;
+    width: 20%;
     background: white;
     height: auto;
     
   }
   .right{
     float: right;
-    width: 85%;
+    width: 80%;
     height: auto;
   }
   .Card{
@@ -27,4 +24,7 @@
     row-gap: 50px;
     column-gap: 60px;
     padding: 0px 150px;
+  }
+  a{
+    text-decoration: none;
   }

@@ -21,6 +21,7 @@ const DivSidebar = styled.div`
             height: 24px;
             width: 24px;
         }
+        
 `;
 
 export const IntoSideBar = ({img, text, colorText}) => {

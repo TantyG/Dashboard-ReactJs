@@ -8,6 +8,7 @@
 import ErrorPage from "containers/ErrorPage";
 import Home from "containers/Home";
 import Login from "containers/Login";
+import Market from "containers/Market";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
    <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/market" element={<Market />} />
       <Route path="*" element={<ErrorPage />} />
    </Routes>
   );

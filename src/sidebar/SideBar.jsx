@@ -17,6 +17,7 @@ import IconEthereum from "asset/Ethereum.png";
 import ArrowLeft from "asset/arrow-left.png";
 import IconPlus from "asset/plus.png";
 import IconETHSmall from "asset/Ethereum(ethsmall).png";
+import { NavLink } from "react-router-dom";
 
 const DivHeader = styled.div`
     width: 166px;
@@ -241,8 +242,13 @@ export const SideBar = ({title, bottomTitle}) => {
                 </div>
             </DivHeader>
             <div>
+                <NavLink to="/"> 
                 <IntoSideBar img={IconDashboard} text={"Dashboard"} colorText="#5429FF"></IntoSideBar>
+                </NavLink>
+                <NavLink to="/market">
                 <IntoSideBar img={IconShop} text={"Market"} colorText={"#7A797D"}></IntoSideBar>
+                </NavLink>
+                
                 <IntoSideBar img={IconJudge} text={"Active Bids"} colorText={"#7A797D"}></IntoSideBar>
             </div>
             <CenterSidebar>
