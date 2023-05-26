@@ -8,7 +8,6 @@ import { NavLink } from "react-router-dom";
 const Nav = styled.div`
     background: rgb(202, 234, 230);
     height: 90px;
-    width: 70%;
     padding: 10px 40px;
     .hearderNav{
         display: flex;
@@ -39,7 +38,6 @@ const Nav = styled.div`
     }
     .endNav{
         display: flex;
-        width: 18%;
     }
     .circle{
         height: 56px;
@@ -84,7 +82,7 @@ const Header = () => {
         <>
             <Nav>
                 <div className="hearderNav">
-                    <span className="searchWrapper"><input type="text" className="search-input" placeholder="Search Item, Collection and Account.."></input></span>
+                    <div className="searchWrapper"><input type="text" className="search-input" placeholder="Search Item, Collection and Account.."></input></div>
                     <div className="endNav">
                         <div className="circle-Div">
                             <div className="circle"></div>

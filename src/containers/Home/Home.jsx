@@ -21,8 +21,8 @@ const DivContent = styled.div`
   display: flex;
   padding: 10px 55px;
   .textContent{
-    height: 354px;
-    width: 716px;
+    width: 60%;
+    height: 450px;
   }
   .Discover{
     font-family: "Epilogue";
@@ -34,8 +34,6 @@ const DivContent = styled.div`
 
   }
   .imgContent{
-    height: 480px;
-    width: 825px;
     border-radius: 12px;
     position: relative;
     background-size: cover;
@@ -44,7 +42,7 @@ const DivContent = styled.div`
     position: relative;
     top: -50px;
     left: 40px;
-    transform: translate(25px , -360px);
+    transform: translate(0px , -290px);
   }
   .DivButton{
     margin-top: 40px;

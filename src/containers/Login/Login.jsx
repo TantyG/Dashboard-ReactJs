@@ -4,6 +4,8 @@ import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 import IconGg from "asset/Google.png";
 import IconFace from "asset/face.png";
 import IconGit from "asset/git.png";
+import { Button } from "Button";
+import { Logo } from "Logo";
 
 const DivStyle = styled.div`
   height: 100vh;
@@ -20,7 +22,7 @@ const DivStyle = styled.div`
     background: #ffffff;
     width: 500px;
     padding: 30px 30px;
-    height: 540px;
+    height: 600px;
     position: relative;
     border-radius: 1em;
     box-shadow: 0 088em 1.55em rgb(156, 156, 156);
@@ -67,7 +69,7 @@ const DivStyle = styled.div`
     position: relative;
     text-align: center;
   }
-  .login-btn:hover {
+  .button:hover {
     transform: scale(1.25);
   }
   .text {
@@ -199,6 +201,7 @@ const Login = () => {
     <>
       <DivStyle>
         <div className="cover">
+          <Logo />
           <h1>Login</h1>
           <label className="user">Username</label>
           <br />
@@ -217,9 +220,7 @@ const Login = () => {
           <br />
 
           <div className="DivButton">
-            <button className="login-btn" onClick={popop}>
-              Login
-            </button>
+            <Button className="button" onClick={popop} height={"46"} width={"150"} bdRa={"23"} bgColor={"rgb(216, 133, 163)"} textColor={"white"}>Login</Button>
           </div>
           <div className={popupStyle}>
             <h3>Login Failed</h3>
@@ -231,8 +232,8 @@ const Login = () => {
           </div>
           <br />
           <div id="order-choice">
-            <button id="button-google"></button>
-            <button id="button-git"></button>
+            <button id="button-google"></button>&nbsp; &nbsp; 
+            <button id="button-git"></button>&nbsp; &nbsp; 
             <button id="button-face"></button>
           </div>
           <br />

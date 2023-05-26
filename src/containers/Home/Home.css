@@ -21,9 +21,9 @@
   .Card{
     display: grid;
     grid-template-columns: 0fr 0fr;
-    row-gap: 50px;
     column-gap: 60px;
-    padding: 0px 150px;
+    row-gap: 20px;
+    width: 50%;
   }
   a{
     text-decoration: none;
