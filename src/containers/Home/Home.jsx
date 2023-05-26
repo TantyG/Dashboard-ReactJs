@@ -20,10 +20,6 @@ import ImgETH from "asset/Ethereumss.png";
 const DivContent = styled.div`
   display: flex;
   padding: 10px 55px;
-  .textContent{
-    width: 60%;
-    height: 450px;
-  }
   .Discover{
     font-family: "Epilogue";
     font-size: 54px;
@@ -39,10 +35,9 @@ const DivContent = styled.div`
     background-size: cover;
   }
   .DivFormText{
-    position: relative;
-    top: -50px;
-    left: 40px;
-    transform: translate(0px , -290px);
+    position: absolute;
+    transform: translate(70px , -300px);
+    width: 540px;
   }
   .DivButton{
     margin-top: 40px;
@@ -163,7 +158,7 @@ const Home = () =>{
             <Header></Header>
             <DivContent>
               <div className="textContent">
-                <img className="imgContent" src={ImgContent} alt="" />
+                    <img className="imgContent" src={ImgContent} alt="" />
                 <div className="DivFormText">
                 <div className="Discover">
                   Discover, Create and Sell Your Own NFT.
