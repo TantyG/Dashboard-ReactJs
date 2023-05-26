@@ -19,8 +19,7 @@ const DivSidebar = styled.div`
         }
         .icon{
             height: 24px;
-            width: 24px;
-            
+            width: 24px;  
         }     
 `;
 
